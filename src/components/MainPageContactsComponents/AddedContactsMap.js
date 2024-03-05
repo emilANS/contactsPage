@@ -13,11 +13,11 @@ const AddedContactsMap = (data) => {
 
       const changeProperties = () => {
 
-      /*  This if condition function is if numberOfTimesEditIsClicked is
-          if one contact is being edited it will not edit another one   */
+      /*  This if condition works when the user try to edit other contact and they are already editing one */
         if (data.numberOfTimesEditIsClicked === 2) {
           return;
         };
+        
         
         // Here is set the value 2 every time changeProperties is clicked
         data.setNumberOfTimesEditIsClicked(2);

@@ -345,13 +345,13 @@ const FilteredInformationMap = (data) => {
             <div>
               {filteredContact.usedImage === false ? 
 
-              <Avatar name={data.submittedUserName} color="purple" round="30px"/>
+              <Avatar className="image-container-change-contact-properties" name={data.submittedUserName} color="purple" round="30px"/>
                 
               : // <=== double dot to continue ternary operator od editContact
 
               <> 
               
-              <Avatar src={filteredContact.usedImage} color="purple" round="30px"/>
+              <Avatar className="image-container-change-contact-properties" src={filteredContact.usedImage} color="purple" round="30px"/>
 
               <div>
                 
@@ -863,7 +863,7 @@ const FilteredInformationMap = (data) => {
               // here is the error delete this when finish
               filteredContact.wasImageEditedMoreThanOneTime === true && filteredContact.image !== null ? 
               
-              <><Avatar src={filteredContact.image}  color="purple" round="30px"/>
+              <><Avatar className="image-container-change-contact-properties" src={filteredContact.image}  color="purple" round="30px"/>
               <div>
                 <button className="delete-image-button" onClick={deleteSavedPhoto}>Delete Photo</button> 
               </div>
@@ -873,11 +873,11 @@ const FilteredInformationMap = (data) => {
 
             filteredContact.imageInEditMode === false  ? 
             
-            <Avatar name={data.submittedUserName} color="purple" round="30px"/>
+            <Avatar className="image-container-change-contact-properties" name={data.submittedUserName} color="purple" round="30px"/>
             
             : // <=== Double dot to continue ternary operator
             
-            <><Avatar src={filteredContact.imageInEditMode}  color="purple" round="30px"/>
+            <><Avatar className="image-container-change-contact-properties" src={filteredContact.imageInEditMode}  color="purple" round="30px"/>
               <div>
                 <button className="delete-image-button" onClick={deleteSavedPhoto}>Delete Photo</button> 
               </div>

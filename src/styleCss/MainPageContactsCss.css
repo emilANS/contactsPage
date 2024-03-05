@@ -497,6 +497,16 @@ input[type="file"] {
 
 }
 
+
+.image-container-change-contact-properties{
+
+    margin: auto;
+
+    margin-top: 10px;
+
+    margin-bottom: 20px;
+}
+
 #input-add-sheet-userName{
 
     /* Centering the inputs */
