@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.uploaded-image{
+  height: 160px;
+  width: 153px;
+  display: inline-block;
+  border-radius: 50%;
+  border-style: groove;
+  image-rendering: optimizeQuality;
+}

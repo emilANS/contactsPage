@@ -1,0 +1,1142 @@
+
+/* Navigation Bar */
+
+.navigation-bar-contacts{
+    /* Setting colors */
+    background-color: rgb(141, 43, 252);
+
+    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(228, 58, 137));
+
+    /* Positioning the navigation bar */
+    height: 50px;
+    margin-bottom: 50px;
+
+    /* Giving borders to the navigation bar */
+    border: 3px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: none;
+
+
+}
+
+
+.presentation{
+    
+    /* This margin works for not displaying a white void that generates the page in the top */
+    margin:0px;
+
+    color: white;
+
+}
+
+
+/* End of Navigation Bar */
+
+
+/* Search section personalization */
+
+
+.search-function-square{
+
+    /* Giving color to the square */
+    background-color: rgb(240, 248, 255);
+    color:rgb(243, 35, 215);
+    border-color: rgb(255, 32, 218);
+    
+    /* Giving borders to the square and shadow */
+    border-width: 2px 2px 5px 2px;
+    border-style: solid;
+    
+    box-shadow: 10px -5px 5px rgba(133, 19, 240, 0.349);
+    
+    /* Positioning the square */
+    position: relative;
+    margin: auto;
+    width: 400px;
+    top: 2px;
+    overflow: hidden;
+
+    border-bottom: 0;
+
+}
+
+
+.changed-search-function-square{
+
+    /* Giving color to the square */
+    background-color: rgb(240, 248, 255);
+    border-color: rgb(255, 32, 218);
+    color:rgb(243, 35, 215);
+    
+    /* Giving borders to the square and shadow */
+    border-width: 2px 2px 2px 2px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-style: solid;
+    
+    box-shadow: 10px -5px 5px rgba(133, 19, 240, 0.349);
+    
+    /* Positioning the square */
+    margin: auto;
+    position: relative;
+    width: 400px;
+    bottom: 5px;
+    overflow: hidden;
+    
+
+
+
+}
+
+
+.search-bar-presentation{
+
+    /* Giving personalization to the message that indicates the user that there is a search bar */
+    background: -webkit-linear-gradient(rgb(188, 2, 245), rgba(226, 17, 17, 0.911));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+.searchByName{
+
+    /* Giving color to the text */
+    background-color: aliceblue;
+
+    color:rgb(132, 35, 243);
+
+    /* Giving a border to the text */
+    border: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    
+    
+    /* Positioning the text */
+    width: auto;
+    width: 170px;
+
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+    transition-duration: 0.4s;
+
+}
+
+
+#checkBoxName{
+
+    /* Giving position to the checkbox */
+    margin-bottom: 20px;
+    
+}
+
+
+.searchByAddress{
+    /* Giving color to the text */
+    background-color: aliceblue;
+ 
+    color: rgb(252, 7, 158);
+
+    /* Giving a border to the text */
+    border: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    
+    /* Positioning the text */
+    width: auto;
+    width: 170px;
+
+    margin: auto;
+    margin-bottom: 10px;
+
+    transition-duration: 0.4s;
+
+}
+
+#checkBoxAddress{
+
+    /* Giving position to the checkbox */
+    margin-top: 15px;
+
+}
+
+
+
+.searchByEmail{
+
+    /* Giving color to the text */
+    color: rgb(29, 3, 148);
+
+    /* Giving a border to the text */
+    border: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    
+    /* Positioning the text */
+    width: auto;
+    width: 200px;
+
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+    transition-duration: 0.4s;
+
+}
+
+
+#checkBoxEmail{
+
+    /* Giving position to the checkbox */
+    margin-bottom: 20px;
+
+}
+
+
+.show-contacts-again-search{
+
+    /* Centering the button */
+    margin: auto;
+
+    /* Giving style to the button */
+    border-color: rgb(202, 56, 188);
+    border-radius: 5px;
+    border-style: solid;
+    
+    background-color: aliceblue;
+    
+    
+    /* Giving size to the button */
+    padding: 3px;
+    width:120px;
+    
+    position: relative;
+
+    /* Show Button one above other */
+    display: block;
+
+    /* Giving margin to the button */
+    transition-duration: 0.4s;
+
+}
+
+
+.show-contacts-again-search:hover{
+
+    /* Giving personalization to the button when mouse is above it */
+    background: -webkit-linear-gradient(rgb(241, 12, 165), rgb(200, 58, 228));
+   
+    padding: 5px;
+
+    border-color: white;
+   
+    color: white;
+
+}
+
+
+.search-bar-input{
+
+    /* Centering the inputs */
+    margin: auto;
+
+    /* Giving separation to the login inputs */
+    margin-bottom: 5px;
+
+
+    /* Maximizing the size of the input blocks */
+    width:200px;
+
+
+    text-align: center;
+
+    /* Personalizing input blocks */
+    padding: 3px;
+    border-radius:0px 10px;
+    border-color: rgb(255, 32, 218);
+    background-color: aliceblue;
+
+    transition-duration: 0.4s;
+
+}
+
+
+.search-bar-input:hover{
+
+    /* Giving personalization when the mouse is above the input */
+    border-color: rgb(206, 44, 255);
+
+}
+
+
+.search-button{
+
+    /* Centering the button */
+    margin: auto;
+
+    position: relative;
+
+    /* Giving style to the button */
+    border-color: rgb(202, 56, 188);
+    border-radius: 10px 0px;
+    border-style: solid;
+    
+    background-color: aliceblue;
+    
+    
+    /* Giving size to the button */
+    padding: 3px;
+    width:120px;
+    
+    
+    right: 2px;
+    
+
+    transition-duration: 0.6s;
+
+}
+
+
+.search-button:hover{
+
+    /* Personalizing the button when the mouse is above it */
+    background: -webkit-linear-gradient(rgb(241, 12, 165), rgb(200, 58, 228));
+
+    color: white;
+
+}
+
+
+.searched-contacts-result{
+
+    /* Centering the button */
+    margin: auto;
+    width: auto;
+    display: inline-block;
+
+
+    position: relative;
+
+    /* Giving style to the button like borders and shadow */
+    border-color: rgb(202, 56, 188);
+
+    border-width: 2px;
+
+    border-bottom-left-radius: 10px;
+
+    border-bottom-right-radius: 10px;
+
+    border-style: solid;
+    
+    box-shadow: 10px -1px 5px rgba(133, 19, 240, 0.349);
+
+    background-color: aliceblue;
+
+    color: rgb(255, 46, 175);
+
+    transition-duration: 0.6s;
+
+    margin-bottom: 30px;
+
+    
+}
+
+
+.no-contacts-founded-message{
+
+    /* Personalizing the message for when there is no contacts founded in the search bar */
+    color: rgb(255, 46, 98);
+    
+}
+
+
+
+/* End of search personalization */
+
+
+
+
+/* Add contacts square */
+
+
+
+.add-contacts-message{
+
+    /* Giving personalization to the text */
+    background: -webkit-linear-gradient(rgba(248, 1, 63, 0.911), rgb(201, 40, 250));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+
+.add-contact-container{
+
+    /* Giving color to the square */
+    background-color: aliceblue;
+    
+
+    /* Giving position to the square */
+    margin: auto;
+    height: 500px;
+    margin-bottom: 30px;
+    width: 690px;
+
+    /* Giving borders to the square */
+    border: 2px;
+    border-color: rgb(241, 12, 230);
+    border-radius: 15px;
+    border-style: solid;
+
+    box-shadow: 30px -7px 5px rgba(133, 19, 240, 0.205);
+    
+}
+
+
+.add-contact-image-container{
+
+    /* Giving position to the profile image so it fits in the square */
+    margin-top: 25px;
+
+    margin-bottom: 20px;
+
+}
+
+
+input[type="file"] {
+
+    /* This works so the page don't put the default input type file */
+    display: none;
+
+}
+
+
+.upload-image-button {
+    /* Centering the button */
+    margin: auto;
+
+    /* Giving style to the button */
+    border-color: rgb(202, 56, 188);
+    border-radius: 5px;
+    border-style: solid;
+    
+    background-color: aliceblue;
+    
+    
+    /* Giving size to the button */
+    padding: 3px;
+    width:120px;
+    
+    position: relative;
+
+    /* Show Button one above other */
+    display: block;
+
+    /* Giving margin to the button */
+    
+
+    transition-duration: 0.4s;
+}
+
+
+.upload-image-button:hover{
+
+    /* Giving personalization when the mouse is above the button */
+    background: -webkit-linear-gradient(rgb(241, 12, 107), rgb(255, 36, 218));
+   
+    color: white;
+
+}
+
+
+.delete-image-add-contact{
+    
+    /* Centering the button */
+    margin: auto;
+
+    /* Giving style to the button */
+    border-color: rgb(202, 56, 188);
+    border-radius: 5px;
+    border-style: solid;
+    
+    background-color: aliceblue;
+    
+    /* Giving size to the button */
+    width:140px;
+    padding: 6px;
+    
+
+    /* Show Button one above other */
+    display: block;
+
+    /* Giving margin to the button */
+    
+    margin-bottom: 10px;
+
+    transition-duration: 0.4s;
+    
+}
+
+.delete-image-add-contact:hover{
+    
+    /* Giving personalization when the mouse is above the button */
+
+    background: -webkit-linear-gradient(rgb(241, 12, 62), rgb(255, 36, 36));
+   
+    padding: 9px;
+    
+    width: 130px;
+
+    border-color: rgba(45, 5, 190, 0.349);
+   
+    color: white;
+
+}
+
+#input-add-sheet-userName{
+
+    /* Centering the inputs */
+    margin: auto;
+
+    /* Giving separation to the login inputs */
+    margin-bottom: 5px;
+
+
+    /* Maximizing the size of the input blocks */
+    width:200px;
+    display: block;
+
+    text-align: center;
+
+    /* Personalizing input blocks */
+
+    padding: 10px;
+    border-radius:10px;
+    border-color: rgb(147, 65, 255);
+    background-color: aliceblue;
+
+    transition: 0.3s;
+
+}
+
+
+#input-add-sheet-userName:hover{
+
+    /* Giving personalization when the mouse is above the input */
+    border-color: rgb(5, 93, 255);
+
+    padding: 15px;
+
+    font-size: 16px;
+
+}
+
+
+.secondary-inputs{
+
+    /* Centering the inputs */
+    margin: auto;
+
+    /* Giving separation to the login inputs */
+    margin-bottom: 5px;
+
+
+    /* Maximizing the size of the input blocks */
+    width:200px;
+
+
+    text-align: center;
+
+    /* Personalizing input blocks */
+
+    padding: 10px;
+    border-radius:10px;
+    border-color: rgb(255, 32, 218);
+    background-color: aliceblue;
+
+    transition: 0.3s;
+
+}
+
+
+.secondary-inputs:hover{
+
+    /* Giving personalization when the mouse is above the input */
+    border-color: rgb(99, 32, 255);
+
+    padding: 15px;
+
+    font-size: 16px;
+
+}
+
+
+.add-contact-button{
+    /* Centering the button */
+    margin: auto;
+
+    /* Giving style to the button */
+    border-color: rgb(202, 56, 188);
+    border-radius: 5px;
+    border-style: solid;
+    
+    background-color: aliceblue;
+    
+    /* Giving size to the button */
+    width:140px;
+    padding: 6px;
+    
+
+    /* Show Button one above other */
+    display: block;
+
+    /* Giving margin to the button */
+    
+    margin-bottom: 10px;
+
+    transition-duration: 0.4s;
+}
+
+
+.add-contact-button:hover{
+
+    /* Giving personalization when the mouse is above the button */
+    background: -webkit-linear-gradient(rgb(241, 12, 107), rgb(255, 36, 218));
+   
+    padding: 10px;
+    
+    width: 200px;
+
+    border-color: rgba(45, 5, 190, 0.349);
+   
+    color: white;
+
+}
+
+
+.empty-inputs-add-contact{
+    color: rgb(213, 48, 235);
+}
+
+
+/* Add contacts square personalization end */
+
+
+
+/* Contacts personalization */
+
+
+.advert-message-empty-contact{
+    color: rgb(134, 42, 240);
+}
+
+.contact-square{
+
+    /* Giving color to the square */
+    background-color: aliceblue;
+
+    
+    
+    /* Giving borders and shadows */
+    border-color: rgb(134, 42, 240);
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    
+    box-shadow: 10px 10px 5px rgb(134, 174, 211);
+
+    /* Positioning the square */
+    margin: auto;
+    width: 400px;
+
+    margin-bottom: 20px;
+
+    overflow: hidden;
+
+
+
+}
+
+.image-container{
+
+    margin-top: 25px;
+
+    background-color: aliceblue;
+
+}
+
+
+.information-about-user{
+    
+    /* Giving color so it doesn't look off */
+
+    background-color: aliceblue;
+
+}
+
+
+.information-about-user-name{
+
+    /* Giving color to the text */
+    background-color: aliceblue;
+
+    color:rgb(132, 35, 243);
+
+    
+    /* Positioning the element */    
+    width: auto;
+    width: 380px;
+
+    margin: auto;
+    margin-bottom: 15px;
+
+    transition-duration: 0.4s;
+
+}
+
+.information-about-user-name-presentation{
+
+    /* Giving color to the text */
+    background-color: aliceblue;
+
+    color:rgb(132, 35, 243);
+
+    /* Adding borders */
+    border: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    
+    
+    /* Positioning Element */
+    width: 220px;
+
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+    transition-duration: 0.4s;
+
+}
+
+
+.information-about-user-email{
+
+    /* Giving color to the text */
+    background-color: aliceblue;
+
+    color: rgb(29, 3, 148);
+    
+    /* Positioning the element */
+    width: auto;
+    width: 380px;
+
+    margin: auto;
+    margin-bottom: 15px;
+
+
+    transition-duration: 0.4s;
+
+}
+
+.information-about-user-email-presentation{
+
+    /* Giving color to the text */
+    background-color: aliceblue;
+
+    color: rgb(29, 3, 148);
+
+    /* Adding borders */
+    border: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    
+    
+    /* Positioning the element */
+    width: 220px;
+
+    margin: auto;
+    margin-bottom: 15px;
+
+
+    transition-duration: 0.4s;
+
+}
+
+
+
+.information-about-user-age{
+
+    /* Giving color to the text */
+    background-color: aliceblue;
+
+    color: rgb(7, 162, 252);
+    
+    /* Positioning the element */
+    width: auto;
+    width: 380px;
+
+    margin: auto;
+    margin-bottom: 15px;
+
+    transition-duration: 0.4s;
+
+}
+
+
+.information-about-user-age-presentation{
+
+    /* Giving color to the text */
+    background-color: aliceblue;
+
+    color: rgb(7, 162, 252);
+
+    /* Adding borders */
+    border: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    
+    /* Positioning the element */
+    width: 220px;
+
+    margin: auto;
+    margin-bottom: 15px;
+
+    transition-duration: 0.4s;
+
+}
+
+
+.information-about-user-address{
+
+    /* Giving color to the text */
+    background-color: aliceblue;
+ 
+    color: rgb(252, 7, 158);
+    
+    /* Positioning the element */
+    width: auto;
+    width: 380px;
+
+    margin: auto;
+    margin-bottom: 15px;
+
+    transition-duration: 0.4s;
+    
+}
+
+
+.information-about-user-address-presentation{
+
+    /* Giving color to the text */
+    background-color: aliceblue;
+ 
+    color: rgb(252, 7, 158);
+
+    /* Adding borders */
+    border: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    
+    /* Positioning the element */
+    width: 225px;
+
+    margin: auto;
+    margin-bottom: 15px;
+
+    transition-duration: 0.4s;
+    
+}
+
+
+.contact-button{
+    /* Centering the button */
+    margin: auto;
+
+    transition-duration: 0.4s;
+
+    /* Giving style to the button */
+    border-color: rgb(202, 56, 188);
+    border-radius: 5px;
+    background-color: aliceblue;
+    
+    /* Giving size to the button */
+    width:130px;
+    padding: 6px;
+    
+
+    /* Show Button one above other */
+    display: block;
+
+    /* Giving margin to the button */
+    
+    margin-bottom: 10px;
+
+    transition-duration: 0.4s;
+
+}
+
+.contact-button:hover{
+
+    /* Personalizing the button when mouse is over it */
+    background: -webkit-linear-gradient(rgb(100, 12, 241), rgb(214, 58, 228));
+
+    border-color: white;
+
+    color: white;
+}
+
+
+
+
+
+
+/* Change properties section */
+
+
+
+
+
+
+
+.input-change-properties{
+
+    /* Centering the inputs */
+    margin: auto;
+
+    /* Giving separation to the login inputs */
+    margin-bottom: 5px;
+
+
+    /* Maximizing the size of the input blocks */
+    width:200px;
+    display: block;
+
+    /* Personalizing input blocks */
+
+    padding: 10px;
+    border-radius:10px;
+    border-color: rgb(164, 75, 248);
+    background-color: aliceblue;
+
+    transition: 0.3s;
+
+}
+
+.input-change-properties:hover{
+
+    /* Personalizing input when mouse is over it */
+
+    background-color: rgb(243, 240, 255);
+
+    border-color: rgb(119, 0, 255);
+    
+    padding: 20px;
+
+    font-size: 17px;
+
+}
+
+
+.change-properties-contact-image{
+
+    /* Adjusting image so it fits in the square */
+
+    margin: auto;
+
+    
+    margin-top: 18px;
+    margin-bottom: 18px;
+
+}
+
+
+.information-about-contact-presentation-name{
+
+    /* Giving color to the text */
+    color:rgb(132, 35, 243);
+
+    /* Adding borders */
+    border: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    
+    /* Positioning the element */
+    width: auto;
+    width: 200px;
+
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+    transition-duration: 0.4s;
+
+}
+
+.information-about-contact-presentation-email{
+
+    /* Giving color to the text */
+    color: rgb(29, 3, 148);
+
+    /* Adding borders */
+    border: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    
+    /* Positioning the element */
+    width: auto;
+    width: 200px;
+
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+    transition-duration: 0.4s;
+}
+
+.information-about-contact-presentation-age{
+
+    /* Giving color to the text */
+    color: rgb(7, 162, 252);
+
+    /* Adding borders */
+    border: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    
+    
+    /* Positioning the element */
+    width: auto;
+    width: 200px;
+
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+    transition-duration: 0.4s;
+}
+
+.information-about-contact-presentation-address{
+
+    /* Giving color to the text */
+    color: rgb(252, 7, 158);
+
+    /* Adding borders */
+    border: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    
+    
+    /* Positioning the element */
+    width: auto;
+    width: 240px;
+
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+    transition-duration: 0.4s;
+}
+
+.select-image-button{
+
+    width: 132px;
+
+    margin-top: 15px;
+
+    border: 2px rgb(134, 66, 245);
+    border-radius: 5px;
+    border-style: solid;
+
+}
+
+.delete-image-button{
+   
+        
+    /* Centering the button */
+    margin: auto;
+
+    transition-duration: 0.4s;
+
+    /* Giving style to the button */
+    border-color: rgb(202, 56, 188);
+    border-radius: 5px;
+    background-color: aliceblue;
+    
+    /* Giving size to the button */
+    width:140px;
+    padding: 6px;
+    
+
+    /* Show Button one above other */
+    display: block;
+
+    /* Giving margin to the button */
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    transition-duration: 0.4s;
+        
+}
+
+
+.delete-image-button:hover{
+
+    /* Personalizing the button when mouse is over it */
+
+    background: -webkit-linear-gradient(rgb(241, 12, 230), rgb(228, 58, 157));
+
+    border-color: white;
+
+    color: white;
+
+}
+
+
+.contact-button-save-properties{
+
+    /* Centering the button */
+    margin: auto;
+
+    /* Giving style to the button */
+    border-color: rgb(202, 56, 188);
+    border-radius: 5px;
+    border-style: solid;
+    
+    background-color: aliceblue;
+    
+    /* Giving size to the button */
+    width:140px;
+    padding: 6px;
+    
+
+    /* Show Button one above other */
+    display: block;
+
+    /* Giving margin to the button */
+    
+    margin-bottom: 10px;
+
+    /* Animating the button */
+    transition-duration: 0.4s;
+
+}
+
+.contact-button-save-properties:hover{
+
+    /* Personalizing the button when mouse is over it */
+
+    background: -webkit-linear-gradient(rgb(241, 12, 230), rgb(228, 58, 157));
+
+    border-color: white;
+
+    color: white;
+}
+
+
+/* Contacts personalization end */
+
