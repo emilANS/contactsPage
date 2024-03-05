@@ -16,4 +16,4 @@ You may also see any lint errors in the console.
 
 ### `npx nodemon server.js`
 
-Use `npx nodemon server.js` to start the server, the server runs on port 4000 if you need to change the server port go to server.js line 30 and modify port variable
+Go to src/backendServer open a terminal and use `npx nodemon server.js` to start the server, the server runs on port 4000 if you need to change the server port go to server.js line 30 and modify port variable
