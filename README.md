@@ -1,3 +1,5 @@
+This website is my first ever programming project so there will be some errors
+
 This page was created using React
 
 steps to follow!
