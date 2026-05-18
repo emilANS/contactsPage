@@ -1,4 +1,4 @@
-This website is my first ever programming project so there will be some errors
+This website is my first ever programming project so there are some beginner errors in it
 
 This page was created using React
 
